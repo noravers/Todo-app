@@ -28,7 +28,7 @@
 
 .todo-Container button {
     cursor: pointer;
-    margin: 0 rem;
+    margin: 0 0.3rem;
     font-size: 1rem;
     font-weight: 700;
     text-transform: uppercase;
@@ -52,7 +52,7 @@
 
 .todo-button-delete {
     color: crimson;
-    padding-right: 1.5rem;
+    padding-right: 1rem;
 }
 
 :root {
