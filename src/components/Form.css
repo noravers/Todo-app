@@ -4,8 +4,8 @@
 }
 
 .header {
-    padding: 1.2rem 1rem;
-    padding-bottom: 0;
+    padding: 2rem;
+    padding-bottom: .25rem;
     width: 100%;
     text-align: center;
     margin: 0 auto;
@@ -18,7 +18,8 @@
 
 
 .newtask-title {
-    padding: .2rem 2.6rem;
+    padding: .2rem 2.65rem;
+    padding-bottom: .45rem;
     font-size: .8rem;
 }
 
