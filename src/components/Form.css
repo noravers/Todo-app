@@ -8,13 +8,13 @@
     width: 100%;
     text-align: center;
     margin: 0 auto;
-    font-size: 2.5rem;
     font-weight: 300;
+    font-size: 1.8rem;
     color: var(--gray);
     background: var(--dark);
-
-
 }
+
+
 
 .newtask-title {
     padding: 1rem 1.6rem;
