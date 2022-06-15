@@ -1,0 +1,6 @@
+.todo-Container-title {
+    padding: 1rem 1rem;
+    width: 100%;
+    font-size: 1.2rem;
+    color: var(--gray);
+}

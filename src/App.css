@@ -1,0 +1,53 @@
+.big-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    background: var(--dark);
+    color: #fff;
+    width: 100%;
+}
+
+:root {
+    --dark: #374151;
+    --darker: #1F2937;
+    --darkest: #111827;
+    --ligth: #EEE;
+    --pink: #EC4899;
+    --purple: #8B5Cf6;
+    --gray: #6B7280;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Fira sans', sans-serif;
+}
+
+@media(min-width: 600px) {
+    .big-container {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .big-container-tasks {
+        order: 1;
+        width: 55%;
+        margin-left: 4rem;
+    }
+
+    .big-container-new-task {
+        order: 2;
+        width: 45%;
+        margin-right: 4rem;
+    }
+
+    .containerForm {
+        width: 100%;
+    }
+
+
+
+
+}

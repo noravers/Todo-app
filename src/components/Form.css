@@ -1,0 +1,135 @@
+.containerForm {
+    padding: 1rem 1rem;
+
+}
+
+.header {
+    padding: 2rem 1rem;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: var(--gray);
+    background: var(--dark);
+
+
+}
+
+.newtask-title {
+    padding: 1rem 1.6rem;
+    font-size: .9rem;
+}
+
+
+.contentForm {
+    display: flex;
+    margin-bottom: 1rem;
+    padding: 0rem 1rem;
+
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-input {
+    /*alinear input y error en columna*/
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input-description {
+    margin-bottom: .5rem;
+
+}
+
+.form-input1,
+.form-input2 {
+    background-color: var(--darker);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: .5rem;
+    font-size: 1.25rem;
+    color: var(--light)
+}
+
+.form-error {
+    margin: 0 1rem;
+    font-size: 1rem;
+    padding: .2rem;
+    color: crimson;
+    font-weight: 600;
+}
+
+.success-message {
+    margin: 0 1rem;
+    font-size: 1rem;
+    padding: .2rem;
+    color: var(--pink);
+    font-weight: 600;
+
+}
+
+
+
+.form-buttons {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.25rem;
+    width: 100%;
+}
+
+.form-canceledit {
+    margin-left: 1rem;
+    text-align: start;
+}
+
+.form-button {
+    margin-right: 1rem;
+    padding-right: 0;
+    text-align: end;
+}
+
+.form-button-add,
+.form-cancel-button {
+    color: var(--pink);
+    font-size: 1.25rem;
+    font-weight: 700;
+    background-image: linear-gradient(to right, var(--pink), var(--purple));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.form-button-add:hover,
+.form-cancel-button:hover {
+    opacity: .8;
+}
+
+.form-button-add:active {
+    opacity: .6;
+
+}
+
+.form-input::placeholder {
+    color: var(--gray);
+}
+
+form div {
+    width: 100%;
+
+}
+
+input,
+button,
+textarea {
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+    resize: none;
+}

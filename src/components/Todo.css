@@ -1,0 +1,71 @@
+.todo-Container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 2rem;
+    font-size: 1.25rem;
+    margin: .5rem;
+    background-color: var(--darkest);
+    padding: 1rem;
+    border-radius: 1rem;
+
+}
+
+.todo-firstline,
+.todo-secondline {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    margin-top: 0.1;
+    color: var(--ligth);
+    font-size: 1.125rem;
+    transition: 0.4s;
+}
+
+.todo-description {
+    width: 60%;
+}
+
+.todo-Container button {
+    cursor: pointer;
+    margin: 0 0.5rem;
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+
+.todo-Container button:hover {
+    opacity: 0.7;
+}
+
+.todo-Container button:active {
+    opacity: 0.7;
+}
+
+.todo-button-edit,
+.todo-button-done {
+    background-image: linear-gradient(to right, var(--pink), var(--purple));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.todo-button-delete {
+    color: crimson
+}
+
+:root {
+    --borderWidth: 7px;
+    --height: 24px;
+    --width: 12px;
+    --borderColor: var(--pink);
+}
+
+.check {
+    display: inline-block;
+    transform: rotate(45deg);
+    height: var(--height);
+    width: var(--width);
+    border-bottom: var(--borderWidth) solid var(--borderColor);
+    border-right: var(--borderWidth) solid var(--borderColor);
+}
