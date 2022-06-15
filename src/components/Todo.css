@@ -45,7 +45,7 @@
 
 .todo-button-edit,
 .todo-button-done {
-    background-image: linear-gradient(to right, var(--pink), var(--purple));
+    background-image: linear-gradient(45deg, var(--pink), var(--purple));
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
