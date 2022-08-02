@@ -1,8 +1,8 @@
 
-
+const localTodos = JSON.parse(localStorage.getItem('todos'))
 
 const initialState = {
-    todos: [
+    todos: localTodos || [
         {
             id: 1,
             title: 'To-do #1',

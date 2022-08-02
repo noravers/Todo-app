@@ -70,7 +70,7 @@ const Form = () => {
 
         if (!title.trim()) {
             errors.title = 'Add a title'
-        } else if (/^([a-zA-Z]+)(\s[a-zA-Z]*$)/.test(title)) {
+        } else if (/^([a-zA-Z]+)(\s[a-zA-Z]*$)/.test(title.trim())) {
             errors.title = 'Add a valid input'
 
         }
